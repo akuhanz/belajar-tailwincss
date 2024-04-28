@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba Tailwind</title> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark:bg-slate-800 dark:text-slate-200">
+    <h1 class="text-6xl font-bold text-center my-10">Mari Belajar <span class="bg-gradient-to-r from-red-800 to-blue-700 bg-clip-text text-transparent">TailwindCSS</span> </h1>
+
+    <section class="mb-10 bg-gradient-to-tl from-violet-400 via-violet-700 to-hanz">
+        <h2 class="text-3xl text-center">Spacing</h2>
+        <div class="m-12 ">margin</div>
+        <div class="py-8 ">padding</div>
+    </section>
+
+    <section class="mb-10 bg-violet-400">
+        <h2 class="text-3xl text-center">Sizing</h2>
+        <div class="w-32 h-32 bg-hanz">kotak 1</div>
+    </section>
+
+    <section class=" font-mono max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-bold text-hanz dark:text-white">Belajar Mengenai Typography Pada TailwindCSS</h2>
+        <div class="mb-4 text-lg text-gray-500 dark:text-gray-300">By <a href="#" class="text-gray-700 font-semibold dark:text-violet-400">Raihan Yozakura</a> 26 April 2024</div>
+        <p class="mb-4">Lorem ipsum dolor sit amet <a href="#" class="underline font-semibold text-blue-600">consectetur</a> adipisicing elit. Veniam cupiditate voluptatem tenetur porro odio eos, accusantium nulla sunt delectus animi qui ab, ipsa repudiandae vero amet. Dignissimos possimus fugiat asperiores quisquam itaque quos magni nulla voluptatum voluptate ex ab suscipit repellendus quibusdam accusamus obcaecati, ipsum rem, nostrum placeat provident assumenda.</p>
+        <blockquote class="mb-4 ml-5 italic font-thin text-lg underline ">"Dan sampai kapanpun, kau adalah langit yang kucintai cerahnya, mendungnya, hujannya, badainya, petirnya, senjanya, pelanginya, dan segalanya yang ada pada dirimu :)"</blockquote>
+        <p class="mb-4">Ungkapan tersebut menggambarkan komitmen dan cinta yang tak terbatas terhadap seseorang. Dengan membandingkan mereka dengan langit, ungkapan itu menunjukkan bahwa orang tersebut adalah kehadiran yang selalu ada dalam segala keadaan, baik buruk maupun baik, dan memiliki berbagai sisi yang indah dan kuat.</p>
+    </section>
+
+    <div class="max-w-xl h-[35rem] bg-hanz mx-auto mt-[42px] overflow-y-scroll bg-scroll" style="background-image: url('https://i.pinimg.com/736x/8b/3f/a1/8b3fa1422dfda9fa205ffb1701521711.jpg');">
+    <p class="p-5 text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat provident nam nulla soluta accusamus nesciunt, numquam, beatae inventore nihil magni aut ipsa necessitatibus ducimus quibusdam aspernatur aperiam expedita architecto? Minus, libero natus. Culpa excepturi sed eum aut magni quos laboriosam eveniet, provident nemo facere vitae nisi molestias labore exercitationem quas? Temporibus eos adipisci tempore. Tempora in odio eveniet nam. Voluptas tenetur, repudiandae aliquam porro voluptates corrupti officia tempore sed laboriosam accusamus excepturi provident perspiciatis eligendi facere earum accusantium, vel doloremque ab nobis, amet facilis ipsum minima fuga laborum? Assumenda praesentium ullam doloribus ut veniam similique esse quibusdam delectus minima dignissimos, vero recusandae soluta. Ratione ut quaerat unde magni rem explicabo enim. Sint ut exercitationem voluptatibus nam, consectetur rem deserunt culpa tempore! Hic et corporis neque quaerat atque in quidem nostrum necessitatibus a assumenda soluta quia cupiditate inventore fugit eum laboriosam aperiam sed molestias deserunt unde, ratione, rerum tenetur alias. Laboriosam.\</p>
+    </div>
+
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-sky-700 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-sky-700 overflow-hidden border-8 brightness-105" style="background-image: url(./img/image1.jpg);">
+        <div class="w-full h-full bg-slate-600 mix-blend-overlay"></div>
+    </div>
+
+    <hr class="my-20">
+
+    <div class="flex justify-center">
+        <span class="text-sm text-slate-500 mr-2">Light</span>
+        <input type="checkbox" id="toggle" class="hidden">
+        <label for="toggle">
+            <div class="w-9 h-5 bg-violet-600 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 bg-white rounded-full toggle-circle ">
+
+                </div>
+            </div>
+        </label>
+        <span class="text-sm text-slate-500 ml-2">Dark</span>
+    </div>
+
+    <button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold block mx-auto hover:bg-sky-700 active:bg-sky-800 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100">Simpan</button>
+
+    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-600 group font-serif dark:bg-slate-300 dark:hover:bg-white">
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">My Wife, Mutsumi Yozakura</h5>
+        <p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-600 first-line:uppercase first-line:tracking-widest first-letter:text-6xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam id earum ipsam nihil voluptates sequi, maxime doloremque, omnis iste quaerat dignissimos eaque animi dolor.</p>
+    </div>
+
+    <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md p-5 dark:bg-slate-300">
+        <form action="">
+            <label for="email">
+                <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-600 after:ml-0.5 ">Tulis Email</span>
+                <input type="email" id="email" placeholder="Masukan email untuk Mutsumi.." class="px-3 py-2 border shadow rounded w-full block placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-600 focus:border-sky-600 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer">
+                <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid</p>
+            </label>
+        </form>
+    </div>
+
+    <hr class="my-20">
+
+    <div class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-125 hover:rotate-180 hover:bg-red-600  transition origin-top-left"></div>
+
+    <div class="w-40 h-40 mx-auto mt-20 group">
+        <div class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 delay-200"></div>
+    </div>
+
+    <div class="w-40 h-40 bg-violet-700 mx-auto rounded-lg shadow-lg mt-20 animate-wiggle"></div>
+
+    <hr class="my-20 border-t-4">
+
+    <div class="container mx-auto">
+        <div class="border rounded-lg shadow-lg p-10 relative">
+            <div class="w-10 h-10 bg-sky-300 rounded-full flex fixed bottom-5 right-5 cursor-pointer"><a href="#" class="text-xl m-auto">🔝</a></div>
+            <div class="float-right ml-3">
+            <img src="img/image1.jpg" alt="Mutsumi" width="150" class="rounded-lg mb-2 lg:h-40 w-40">
+            <h1 class="ml-3 text-sm lg:ml-0 lg:text-lg"><span class="text-sky-600">Mutsumi Yozakura</span>❤️</h1>
+            </div>
+            <p class="text-justify lg:text-2xl">
+                "Cahaya redup melintas di kamar ketika aku menyelinap masuk, hatiku berdebar-debar di dalam kegelapan. Namun, kegelapan ini bukanlah kehampaan, melainkan tempat di mana cinta kami tumbuh subur. Di dalam gelap ini, aku bisa merasakan kehadiranmu, meski tak bisa melihatmu dengan mata telanjang. Setiap sentuhan, setiap bisikan, setiap desahan mengalir dalam harmoni yang hanya kita berdua yang mengerti. Cinta dalam kegelapan ini tak butuh sorot mata, karena di sini, cinta kita bersinar paling terang, bahkan dalam gelap yang paling pekat sekalipun."
+            </p>
+        </div>
+    </div>
+
+    <div class="container mx-auto border rounded-lg shadow-lg p-10 mt-20 columns-2">
+        <img src="https://i.pinimg.com/originals/a5/52/de/a552deb3f8e405efc978cfda67b133f5.gif" alt="gif" width="350px" height="100px" class="mb-4 h-44">
+        <img src="https://i.pinimg.com/originals/b9/65/9f/b9659ffb2d2ffbce2e6a265ffc3a0d8a.gif" alt="gif" width="350" height="100px" class="mb-4 h-44">
+        <img src="https://i.pinimg.com/originals/6c/70/dd/6c70dd218e945bd4d45b6e051e494591.gif" alt="gif" width="350" height="100px" class="mb-4 h-44">
+        <img src="https://i.pinimg.com/originals/02/f3/dc/02f3dcafe6f7f054201491d6872fe282.gif" alt="gif" width="350" class="mb-4 h-44">
+    </div>
+
+    <hr class="my-24 border-t-4">
+
+    <div class="container px-6 font-sans max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0">
+        <div class="lg:p-12 lg:flex-1">
+            <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl md:text-6xl">Hanz Yoza<span class="text-violet-500">kura</span></h3>
+            <img src="img/image2.jpg" alt="Hanz" class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object-top md:h-96 md:object-center lg:hidden">
+            <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">Mari belajar Tailwind Bersama WPU</h2>
+            <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl md:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut eius, accusantium corrupti esse veniam in molestias voluptatem quas repudiandae vitae magni tenetur debitis reprehenderit obcaecati voluptate omnis dolorum? Magni dolorem voluptas odit?</p>
+            <div class="mt-4 sm:mt-6">
+                <a href="#" class="inline-block px-5 py-3 bg-red-600 text-white rounded-lg shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base">Follow Akun Instagram</a>
+            </div>
+        </div>
+        <div class="hidden lg:flex lg:w-1/2 "> 
+            <img src="img/image2.jpg" alt="Hanz" class="object-cover rounded-l-full">
+        </div>
+    </div>
+    
+    <h2 class="mt-20 mb-10 text-center font-bold text-3xl text-slate-700 ">My Wife</h2>
+
+    <div class="container mx-auto px-6 font-sans sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+        <div class="rounded-md shadow-lg overflow-hidden mb-8 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://i.pinimg.com/564x/46/1e/8d/461e8de93a0ea2871576e0f2a0a8f928.jpg" alt="Mutsumi" class="w-full">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-slate-700 ">Mutsumi Yozakura</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magni.</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg overflow-hidden mb-8 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://i.pinimg.com/564x/98/eb/eb/98ebeb1f39abbbd75cb60b5106267aaa.jpg" alt="Mutsumi" class="w-full">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-slate-700 ">Mutsumi Yozakura</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magni.</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg overflow-hidden mb-8 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://i.pinimg.com/564x/e2/af/0a/e2af0a4fb2ec93f0cba5299673375d8a.jpg" alt="Mutsumi" class="w-full">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-slate-700 ">Mutsumi Yozakura</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magni.</p>
+            </div>
+        </div>
+        <div class="rounded-md shadow-lg overflow-hidden mb-8 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://i.pinimg.com/564x/11/51/1d/11511d34f3b0cea201b99e7931a3e467.jpg" alt="Mutsumi" class="w-full">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-slate-700 ">Mutsumi Yozakura</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magni.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-64 p-2 font-sans grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+        <h2 class="text-xl h-15 font-semibold text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">Welcom to Yozakura Family</span></h2>
+        <div class="h-15 text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2 md:flex"><span class="self-end">@familyyozakura</span></div>
+
+        <div class="group grid-card">
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/2b/f8/1a/2bf81a350474b732d9d867066dc0d977.jpg')]"></div>
+        </div>
+        <div class="group grid-card md:col-start-3">
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/7b/58/02/7b5802b1bcdca1c1c85c66af929f56ae.jpg')]"></div>
+        </div>
+        <div class="group grid-card"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/69/24/ed/6924ed67f20820dffe469c8ffd9e29f9.jpg')]"></div>
+        </div>
+        <div class="group grid-card"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/736x/2d/82/85/2d8285c67315a19d8f2212bd8df8b221.jpg')]"></div>
+        </div>
+        <div class="group grid-card"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/b3/05/16/b305169746c4dfa72b4892581368f497.jpg')]"></div>
+        </div>
+        <div class="group grid-card md:col-start-2"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/d5/70/c9/d570c9084a247d8b086f79594d04d166.jpg')]"></div>
+        </div>
+        <div class="group grid-card md:col-start-4"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/69/1a/19/691a19661cac2ff37a5ed0c55403cabf.jpg')]"></div>
+        </div>
+        <div class="group grid-card"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/a3/54/20/a35420df7b6b35c3a10062d3e5155e4d.jpg')]"></div>
+        </div>
+        <div class="group grid-card md:col-start-3"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/0e/05/b9/0e05b9069b2870cf0b59367fdc80d2a8.jpg')]"></div>
+        </div>
+        <div class="group grid-card md:col-start-3"> 
+            <div class="grid-card-image bg-[url('https://i.pinimg.com/564x/8f/e8/0a/8fe80a7f67367fa35cdbb2c539b89d78.jpg')]"></div>
+        </div>
+    </div>
+
+    <h1>Hanz</h1>
+
+    <div class="mb-96"></div>
+
+    <script>
+        const checkbox = document.querySelector('#toggle');
+        const html = document.querySelector('html');
+
+        checkbox.addEventListener('click', function(){
+            checkbox.checked ? html.classList.add
+            ('dark') : html.classList.remove('dark');
+        })
+    </script>
+</body>
+</html>
